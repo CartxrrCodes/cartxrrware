@@ -76,7 +76,9 @@
 -- ello skid!
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-game.StarterGui:SetCore("SendNotification", {Title="Hello"; Text="enjoy my shitty script"; Duration=5;})
+game.StarterGui:SetCore("SendNotification", {Title="Made By: Cartxrr"; Text=".gg/7gacGPFbMk"; Duration=5;})
+game.StarterGui:SetCore("SendNotification", {Title="Join my Discord"; Text="Link was copied"; Duration=5;})
+setclipboard("https://discord.gg/7gacGPFbMk")
 wait(1)
 local Window = Library.CreateLib("Cartxrr's Ware", "DarkTheme")
 local ph = Window:NewTab("Player 🤠")
@@ -531,3 +533,8 @@ local othertab = others:NewSection("Game 🎮‍")
 othertab:NewButton("Rejoin Game", "rejoins the game for you!", function()
 	game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
 end)
+
+-- test
+
+local test = Window:NewTab("Tests 🛠")
+local tests = test:NewSection("stuff‍")
